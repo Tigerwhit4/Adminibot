@@ -10,7 +10,7 @@
         <ScrollViewer>
             <StackPanel MinWidth="200">
                 <TextBlock Text="SIGN-IN INFORMATION" Style="{StaticResource Heading2}" />
-                <mui:BBCodeBlock BBCode="In order to properly connect to Twitch, we'll need to know a few details. Please remember that these details will not be shared with anyone.&#13;&#10;&#13;&#10;You have an option to remember your information. If you are using a public computer, it is recommended to turn the option off to prevent security risks. If you are using a personal computer, it is recommended to leave the option turned on for ease of access." Margin="0,0,0,32" />
+                <mui:BBCodeBlock BBCode="In order to properly connect to Twitch, we'll need to know a few details. Please remember that these details will not be shared with anyone." Margin="0,0,0,32" />
                 <TextBlock Text="CREDENTIALS" Style="{StaticResource Heading2}" />
                 <mui:BBCodeBlock BBCode="In the form below, you'll need to enter the following details:&#13;&#10;• [B]Username[/B] - The Twitch username you want to bot to use.&#13;&#10;• [B]Token[/B] - A generated token that acts as your password. You can generate one by using the buttons below the form." Margin="0,0,0,16" />
                 <StackPanel Orientation="Vertical">
@@ -45,7 +45,7 @@
                     </StackPanel>
                     <StackPanel>
                         <Label />
-                        <CheckBox Content="Remember" />
+                        <CheckBox Content="Remember" IsChecked="True" ToolTip="Only leave this checked if you are on a private computer." />
                     </StackPanel>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0,0,0,32">
@@ -78,7 +78,7 @@
                     </StackPanel>
                     <StackPanel>
                         <Label />
-                        <CheckBox Content="Remember" />
+                        <CheckBox Content="Remember" IsChecked="True" ToolTip="Only leave this checked if you are on a private computer." />
                     </StackPanel>
                 </StackPanel>
                 <TextBlock Text="CONNECT" Style="{StaticResource Heading2}" />

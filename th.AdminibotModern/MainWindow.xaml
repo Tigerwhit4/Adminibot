@@ -41,6 +41,6 @@
     <mui:ModernWindow.TitleLinks>
         <mui:Link DisplayName="Home" Source="/Pages/Welcome/Home.xaml" />
         <mui:Link DisplayName="Settings" Source="/Pages/Settings/AdminibotSettings.xaml" />
-        <!-- <mui:Link DisplayName="Help" Source="http://mui.codeplex.com" /> -->
+        <mui:Link DisplayName="Help" Source="https://github.com/HuMothy/Adminibot" />
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>
