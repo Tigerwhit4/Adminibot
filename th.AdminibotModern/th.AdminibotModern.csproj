@@ -59,65 +59,65 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Pages\BotSettings.xaml.cs">
-      <DependentUpon>BotSettings.xaml</DependentUpon>
+    <Compile Include="Pages\Settings\AdminibotSettings.xaml.cs">
+      <DependentUpon>AdminibotSettings.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Chat.xaml.cs">
+    <Compile Include="Pages\Stream\Chat.xaml.cs">
       <DependentUpon>Chat.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\CommandsPage.xaml.cs">
-      <DependentUpon>CommandsPage.xaml</DependentUpon>
+    <Compile Include="Pages\Welcome\Commands.xaml.cs">
+      <DependentUpon>Commands.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\Battletags.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\Battletags.xaml.cs">
       <DependentUpon>Battletags.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\Currency.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\Currency.xaml.cs">
       <DependentUpon>Currency.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\CustomCommands.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\CustomCommands.xaml.cs">
       <DependentUpon>CustomCommands.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\General.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\General.xaml.cs">
       <DependentUpon>General.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\Moderation.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\Moderation.xaml.cs">
       <DependentUpon>Moderation.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\Polls.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\Polls.xaml.cs">
       <DependentUpon>Polls.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\Raffles.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\Raffles.xaml.cs">
       <DependentUpon>Raffles.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\SpamProtection.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\SpamProtection.xaml.cs">
       <DependentUpon>SpamProtection.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Commands\TimeWatched.xaml.cs">
+    <Compile Include="Pages\Welcome\Commands\TimeWatched.xaml.cs">
       <DependentUpon>TimeWatched.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Connection.xaml.cs">
-      <DependentUpon>Connection.xaml</DependentUpon>
+    <Compile Include="Pages\Connection\SignIn.xaml.cs">
+      <DependentUpon>SignIn.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\DatabasePage.xaml.cs">
-      <DependentUpon>DatabasePage.xaml</DependentUpon>
+    <Compile Include="Pages\Advanced\DatabaseManagement.xaml.cs">
+      <DependentUpon>DatabaseManagement.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Database\CommandsDatabase.xaml.cs">
-      <DependentUpon>CommandsDatabase.xaml</DependentUpon>
+    <Compile Include="Pages\Advanced\DatabaseManagement\Commands.xaml.cs">
+      <DependentUpon>Commands.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Database\UsersDatabase.xaml.cs">
-      <DependentUpon>UsersDatabase.xaml</DependentUpon>
+    <Compile Include="Pages\Advanced\DatabaseManagement\Users.xaml.cs">
+      <DependentUpon>Users.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Events.xaml.cs">
-      <DependentUpon>Events.xaml</DependentUpon>
+    <Compile Include="Pages\Advanced\EventLog.xaml.cs">
+      <DependentUpon>EventLog.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Features.xaml.cs">
+    <Compile Include="Pages\Welcome\Features.xaml.cs">
       <DependentUpon>Features.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Settings\ThirdParty.xaml.cs">
+    <Compile Include="Pages\Settings\Information\ThirdParty.xaml.cs">
       <DependentUpon>ThirdParty.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\StreamInfo.xaml.cs">
-      <DependentUpon>StreamInfo.xaml</DependentUpon>
+    <Compile Include="Pages\Stream\Information.xaml.cs">
+      <DependentUpon>Information.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -137,120 +137,120 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pages\BotSettings.xaml">
+    <Page Include="Pages\Settings\AdminibotSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Chat.xaml">
+    <Page Include="Pages\Stream\Chat.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\CommandsPage.xaml">
+    <Page Include="Pages\Welcome\Commands.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\Battletags.xaml">
+    <Page Include="Pages\Welcome\Commands\Battletags.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\Currency.xaml">
+    <Page Include="Pages\Welcome\Commands\Currency.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\CustomCommands.xaml">
+    <Page Include="Pages\Welcome\Commands\CustomCommands.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\General.xaml">
+    <Page Include="Pages\Welcome\Commands\General.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\Moderation.xaml">
+    <Page Include="Pages\Welcome\Commands\Moderation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\Polls.xaml">
+    <Page Include="Pages\Welcome\Commands\Polls.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\Raffles.xaml">
+    <Page Include="Pages\Welcome\Commands\Raffles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\SpamProtection.xaml">
+    <Page Include="Pages\Welcome\Commands\SpamProtection.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Commands\TimeWatched.xaml">
+    <Page Include="Pages\Welcome\Commands\TimeWatched.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Connection.xaml">
+    <Page Include="Pages\Connection\SignIn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\DatabasePage.xaml">
+    <Page Include="Pages\Advanced\DatabaseManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Database\CommandsDatabase.xaml">
+    <Page Include="Pages\Advanced\DatabaseManagement\Commands.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Database\UsersDatabase.xaml">
+    <Page Include="Pages\Advanced\DatabaseManagement\Users.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Events.xaml">
+    <Page Include="Pages\Advanced\EventLog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Features.xaml">
+    <Page Include="Pages\Welcome\Features.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Settings\About.xaml">
+    <Page Include="Pages\Settings\Information\About.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Compile Include="Pages\Settings\About.xaml.cs">
+    <Compile Include="Pages\Settings\Information\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
-    <Page Include="Pages\Settings\Appearance.xaml">
+    <Page Include="Pages\Settings\AdminibotSettings\Appearance.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Compile Include="Pages\Settings\Appearance.xaml.cs">
+    <Compile Include="Pages\Settings\AdminibotSettings\Appearance.xaml.cs">
       <DependentUpon>Appearance.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Settings\AppearanceViewModel.cs" />
-    <Page Include="Pages\Home.xaml">
+    <Compile Include="Pages\Settings\AdminibotSettings\AppearanceViewModel.cs" />
+    <Page Include="Pages\Welcome\Home.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\SettingsPage.xaml">
+    <Page Include="Pages\Settings\Information.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Compile Include="Pages\Home.xaml.cs">
+    <Compile Include="Pages\Welcome\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\SettingsPage.xaml.cs">
-      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    <Compile Include="Pages\Settings\Information.xaml.cs">
+      <DependentUpon>Information.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Settings\Legal.xaml.cs">
+    <Compile Include="Pages\Settings\Information\Legal.xaml.cs">
       <DependentUpon>Legal.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Page Include="Pages\Settings\Legal.xaml">
+    <Page Include="Pages\Settings\Information\Legal.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Settings\ThirdParty.xaml">
+    <Page Include="Pages\Settings\Information\ThirdParty.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\StreamInfo.xaml">
+    <Page Include="Pages\Stream\Information.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -275,6 +275,7 @@
   <ItemGroup>
     <Resource Include="Resources\avatar_timo64.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -7,11 +7,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
-        <mui:ModernTab Layout="List" SelectedSource="/Pages/Settings/About.xaml">
+        <mui:ModernTab Layout="List" SelectedSource="/Pages/Settings/Information/About.xaml">
             <mui:ModernTab.Links>
-                <mui:Link DisplayName="about" Source="/Pages/Settings/About.xaml" />
-                <mui:Link DisplayName="legal" Source="/Pages/Settings/Legal.xaml" />
-                <mui:Link DisplayName="third party" Source="/Pages/Settings/ThirdParty.xaml" />
+                <mui:Link DisplayName="about" Source="/Pages/Settings/Information/About.xaml" />
+                <mui:Link DisplayName="legal" Source="/Pages/Settings/Information/Legal.xaml" />
+                <mui:Link DisplayName="third party" Source="/Pages/Settings/Information/ThirdParty.xaml" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>

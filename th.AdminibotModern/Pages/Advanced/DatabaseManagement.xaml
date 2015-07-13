@@ -7,10 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <Grid Style="{StaticResource ContentRoot}">
-        <mui:ModernTab Layout="Tab" SelectedSource="/Pages/Database/UsersDatabase.xaml">
+        <mui:ModernTab Layout="Tab" SelectedSource="/Pages/Advanced/DatabaseManagement/Users.xaml">
             <mui:ModernTab.Links>
-                <mui:Link DisplayName="Users" Source="/Pages/Database/UsersDatabase.xaml" />
-                <mui:Link DisplayName="Commands" Source="/Pages/Database/CommandsDatabase.xaml" />
+                <mui:Link DisplayName="Users" Source="/Pages/Advanced/DatabaseManagement/Users.xaml" />
+                <mui:Link DisplayName="Commands" Source="/Pages/Advanced/DatabaseManagement/Commands.xaml" />
             </mui:ModernTab.Links>
         </mui:ModernTab>
     </Grid>
