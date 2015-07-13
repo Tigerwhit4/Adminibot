@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,21 @@ namespace th.AdminibotModern.Pages
     /// </summary>
     public partial class StreamInfo : UserControl
     {
+        public class DataObject
+        {
+            public string streamInformationTitle { get; set; }
+            public string streamInformationContent { get; set; }
+        }
+        
         public StreamInfo()
         {
             InitializeComponent();
+
+            var list = new ObservableCollection<DataObject>();
+            list.Add(new DataObject() { streamInformationTitle = "Online", streamInformationContent = "False" });
+            list.Add(new DataObject() { streamInformationTitle = "Title", streamInformationContent = "Punday Monday: Playing Random Indie Games" });
+            list.Add(new DataObject() { streamInformationTitle = "Game", streamInformationContent = "Holy Potatoes! A Weapon Shop?!" });
+            this.streamInformationGrid.ItemsSource = list;
         }
     }
 }
