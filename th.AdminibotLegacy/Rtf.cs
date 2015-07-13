@@ -7,7 +7,7 @@ using System.Net;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     class Rtf
     {

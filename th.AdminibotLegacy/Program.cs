@@ -9,9 +9,9 @@ using System.Security;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Windows.Forms;
-using th.Adminibot.Properties;
+using th.AdminibotLegacy.Properties;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     static class Program
     {

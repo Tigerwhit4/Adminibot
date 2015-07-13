@@ -1,4 +1,4 @@
-﻿namespace th.Adminibot
+﻿namespace th.AdminibotLegacy
 {
     public class Types
     {

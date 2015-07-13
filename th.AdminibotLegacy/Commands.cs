@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Reflection;
-using th.Adminibot.Command;
-using th.Adminibot.Properties;
+using th.AdminibotLegacy.Command;
+using th.AdminibotLegacy.Properties;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     public class Commands
     {

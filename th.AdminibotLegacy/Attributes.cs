@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     
     [AttributeUsage(AttributeTargets.All, Inherited = false)]

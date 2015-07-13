@@ -7,8 +7,8 @@
     <ProjectGuid>{B0145660-8B50-4A28-9312-38D53A4B8759}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>th.Adminibot</RootNamespace>
-    <AssemblyName>th.Adminibot</AssemblyName>
+    <RootNamespace>th.AdminibotLegacy</RootNamespace>
+    <AssemblyName>th.AdminibotLegacy</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>81a0ee93</NuGetPackageImportStamp>

@@ -10,10 +10,10 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
-using th.Adminibot.Properties;
+using th.AdminibotLegacy.Properties;
 // ReSharper disable LocalizableElement
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     public partial class MainDialog : Form
     {

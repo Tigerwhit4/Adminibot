@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Windows.Forms;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     public partial class AuthDialog : Form
     {

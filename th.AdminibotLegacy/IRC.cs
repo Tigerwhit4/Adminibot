@@ -7,9 +7,9 @@ using System.Net.Sockets;
 using System.Threading;
 using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
-using th.Adminibot.Properties;
+using th.AdminibotLegacy.Properties;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     class Irc
     {

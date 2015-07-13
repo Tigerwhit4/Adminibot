@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     public partial class AboutDialog : Form
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     public class CustomCommand
     {

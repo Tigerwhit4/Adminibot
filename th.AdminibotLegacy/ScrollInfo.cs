@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     [StructLayout(LayoutKind.Sequential)]
     public struct ScrollInfo

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     partial class MainDialog
     {

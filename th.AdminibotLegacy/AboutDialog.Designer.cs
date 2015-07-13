@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Windows.Forms;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     partial class AboutDialog
     {
@@ -104,7 +104,7 @@ namespace th.Adminibot
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::th.Adminibot.Properties.Resources.avatar_timo64;
+            this.pictureBox1.Image = global::th.AdminibotLegacy.Properties.Resources.avatar_timo64;
             this.pictureBox1.Location = new System.Drawing.Point(5, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 64);
@@ -125,7 +125,7 @@ namespace th.Adminibot
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::th.Adminibot.Properties.Resources.avatar_hugo64;
+            this.pictureBox2.Image = global::th.AdminibotLegacy.Properties.Resources.avatar_hugo64;
             this.pictureBox2.Location = new System.Drawing.Point(5, 77);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(64, 64);

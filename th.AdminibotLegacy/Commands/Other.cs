@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Reflection;
 using Newtonsoft.Json.Linq;
-using th.Adminibot.Properties;
+using th.AdminibotLegacy.Properties;
 
-namespace th.Adminibot.Command
+namespace th.AdminibotLegacy.Command
 {
     class Other : CommandBase
     {

@@ -1,7 +1,7 @@
 ﻿using System;
-using th.Adminibot.Properties;
+using th.AdminibotLegacy.Properties;
 
-namespace th.Adminibot.Command
+namespace th.AdminibotLegacy.Command
 {
     class Points : CommandBase
     {

@@ -1,4 +1,4 @@
-﻿namespace th.Adminibot.Command
+﻿namespace th.AdminibotLegacy.Command
 {
     public class CommandBase
     {

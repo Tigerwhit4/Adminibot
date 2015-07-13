@@ -4,9 +4,9 @@ using System.Data.SQLite;
 using System.IO;
 using System.Linq;
 using System.Text;
-using th.Adminibot.Properties;
+using th.AdminibotLegacy.Properties;
 
-namespace th.Adminibot
+namespace th.AdminibotLegacy
 {
     public class Database
     {
