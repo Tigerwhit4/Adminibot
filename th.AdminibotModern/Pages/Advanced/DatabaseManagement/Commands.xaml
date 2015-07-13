@@ -10,7 +10,7 @@
         <ScrollViewer>
             <Grid>
                 <Grid.Resources>
-                    <PathGeometry x:Key="FilterIcon">F1 M 34.8333,61.75L 34.8333,42.75L 19,20.5833L 57,20.5833L 41.1667,42.75L 41.1667,58.5833L 34.8333,61.75 Z</PathGeometry>
+                    <PathGeometry x:Key="FilterIcon">M6,13H18V11H6M3,6V8H21V6M10,18H14V16H10V18Z</PathGeometry>
                     <Style TargetType="mui:ModernButton">
                         <Setter Property="Margin" Value="0,0,8,0" />
                         <Setter Property="BorderThickness" Value="2" />
