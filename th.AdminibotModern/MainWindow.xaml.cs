@@ -1,6 +1,6 @@
 ﻿using FirstFloor.ModernUI.Windows.Controls;
-using th.AdminibotModern.Pages.Settings.AdminibotSettings;
 using th.AdminibotModern.Properties;
+using th.AdminibotModern.Views.Settings.AdminibotSettings;
 
 namespace th.AdminibotModern
 {
