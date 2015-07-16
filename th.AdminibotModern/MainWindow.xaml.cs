@@ -1,7 +1,6 @@
 ﻿using FirstFloor.ModernUI.Windows.Controls;
 using th.AdminibotModern.Properties;
 using th.AdminibotModern.ViewModels;
-using th.AdminibotModern.Views.Settings.AdminibotSettings;
 
 namespace th.AdminibotModern
 {

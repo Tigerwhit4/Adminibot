@@ -5,7 +5,6 @@ using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
 using th.AdminibotLegacy.Properties;
 

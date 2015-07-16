@@ -59,6 +59,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Models\Event.cs" />
+    <Compile Include="ViewModels\EventLogViewModel.cs" />
     <Compile Include="Views\Settings\AdminibotSettings.xaml.cs">
       <DependentUpon>AdminibotSettings.xaml</DependentUpon>
     </Compile>
@@ -275,9 +277,7 @@
   <ItemGroup>
     <Resource Include="Resources\avatar_timo64.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

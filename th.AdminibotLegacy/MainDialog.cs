@@ -11,6 +11,7 @@ using System.Threading;
 using System.Windows.Forms;
 using Newtonsoft.Json.Linq;
 using th.AdminibotLegacy.Properties;
+
 // ReSharper disable LocalizableElement
 
 namespace th.AdminibotLegacy

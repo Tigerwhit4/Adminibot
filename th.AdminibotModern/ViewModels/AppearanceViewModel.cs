@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows.Media;
 using FirstFloor.ModernUI.Presentation;
+using th.AdminibotModern.Properties;
 
 namespace th.AdminibotModern.ViewModels
 {
@@ -55,11 +56,11 @@ namespace th.AdminibotModern.ViewModels
 
             if (this._colorLoadedYet)
             {
-                Properties.Settings.Default.SelectedThemeDisplayName = this.SelectedTheme.DisplayName;
-                Properties.Settings.Default.SelectedThemeSource = this.SelectedTheme.Source;
-                Properties.Settings.Default.SelectedAccentColor = this.SelectedAccentColor;
-                Properties.Settings.Default.SelectedFontSize = this.SelectedFontSize;
-                Properties.Settings.Default.Save();
+                Settings.Default.SelectedThemeDisplayName = this.SelectedTheme.DisplayName;
+                Settings.Default.SelectedThemeSource = this.SelectedTheme.Source;
+                Settings.Default.SelectedAccentColor = this.SelectedAccentColor;
+                Settings.Default.SelectedFontSize = this.SelectedFontSize;
+                Settings.Default.Save();
             }
         }
 
@@ -122,8 +123,8 @@ namespace th.AdminibotModern.ViewModels
 
                     if (_colorLoadedYet)
                     {
-                        Properties.Settings.Default.SelectedFontSize = this._selectedFontSize;
-                        Properties.Settings.Default.Save();
+                        Settings.Default.SelectedFontSize = this._selectedFontSize;
+                        Settings.Default.Save();
                     }
 
                     AppearanceManager.Current.FontSize = value == FontLarge ? FontSize.Large : FontSize.Small;
