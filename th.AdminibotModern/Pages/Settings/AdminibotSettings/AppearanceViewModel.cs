@@ -1,13 +1,10 @@
-﻿using FirstFloor.ModernUI.Presentation;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Media;
+using FirstFloor.ModernUI.Presentation;
 
-namespace th.AdminibotModern.Pages.Settings
+namespace th.AdminibotModern.Pages.Settings.AdminibotSettings
 {
     /// <summary>
     /// A simple view model for configuring theme, font and accent colors.
@@ -20,7 +17,7 @@ namespace th.AdminibotModern.Pages.Settings
         private bool _colorLoadedYet;
 
         // 9 accent colors from metro design principles
-        private Color[] accentColors = new Color[]{
+        private Color[] _accentColors = new Color[]{
             Color.FromRgb(0x33, 0x99, 0xff),   // blue
             Color.FromRgb(0x00, 0xab, 0xa9),   // teal
             Color.FromRgb(0x33, 0x99, 0x33),   // green
@@ -56,16 +53,16 @@ namespace th.AdminibotModern.Pages.Settings
             Color.FromRgb(0x87, 0x79, 0x4e),   // taupe
         };*/
 
-        private Color selectedAccentColor;
-        private LinkCollection themes = new LinkCollection();
-        private Link selectedTheme;
-        private string selectedFontSize;
+        private Color _selectedAccentColor;
+        private LinkCollection _themes = new LinkCollection();
+        private Link _selectedTheme;
+        private string _selectedFontSize;
 
         public AppearanceViewModel()
         {
             // add the default themes
-            this.themes.Add(new Link { DisplayName = "Dark", Source = AppearanceManager.DarkThemeSource });
-            this.themes.Add(new Link { DisplayName = "Light", Source = AppearanceManager.LightThemeSource });
+            this._themes.Add(new Link { DisplayName = "Dark", Source = AppearanceManager.DarkThemeSource });
+            this._themes.Add(new Link { DisplayName = "Light", Source = AppearanceManager.LightThemeSource });
 
             this.SelectedFontSize = AppearanceManager.Current.FontSize == FontSize.Large ? FontLarge : FontSmall;
             SyncThemeAndColor();
@@ -76,7 +73,7 @@ namespace th.AdminibotModern.Pages.Settings
         private void SyncThemeAndColor()
         {
             // synchronizes the selected viewmodel theme with the actual theme used by the appearance manager.
-            this.SelectedTheme = this.themes.FirstOrDefault(l => l.Source.Equals(AppearanceManager.Current.ThemeSource));
+            this.SelectedTheme = this._themes.FirstOrDefault(l => l.Source.Equals(AppearanceManager.Current.ThemeSource));
 
             // and make sure accent color is up-to-date
             this.SelectedAccentColor = AppearanceManager.Current.AccentColor;
@@ -109,7 +106,7 @@ namespace th.AdminibotModern.Pages.Settings
 
         public LinkCollection Themes
         {
-            get { return this.themes; }
+            get { return this._themes; }
         }
 
         public string[] FontSizes
@@ -119,17 +116,17 @@ namespace th.AdminibotModern.Pages.Settings
 
         public Color[] AccentColors
         {
-            get { return this.accentColors; }
+            get { return this._accentColors; }
         }
 
         public Link SelectedTheme
         {
-            get { return this.selectedTheme; }
+            get { return this._selectedTheme; }
             set
             {
-                if (this.selectedTheme != value)
+                if (this._selectedTheme != value)
                 {
-                    this.selectedTheme = value;
+                    this._selectedTheme = value;
                     OnPropertyChanged("SelectedTheme");
 
                     // and update the actual theme
@@ -140,17 +137,17 @@ namespace th.AdminibotModern.Pages.Settings
 
         public string SelectedFontSize
         {
-            get { return this.selectedFontSize; }
+            get { return this._selectedFontSize; }
             set
             {
-                if (this.selectedFontSize != value)
+                if (this._selectedFontSize != value)
                 {
-                    this.selectedFontSize = value;
+                    this._selectedFontSize = value;
                     OnPropertyChanged("SelectedFontSize");
 
                     if (_colorLoadedYet)
                     {
-                        Properties.Settings.Default.SelectedFontSize = this.selectedFontSize;
+                        Properties.Settings.Default.SelectedFontSize = this._selectedFontSize;
                         Properties.Settings.Default.Save();
                     }
 
@@ -161,12 +158,12 @@ namespace th.AdminibotModern.Pages.Settings
 
         public Color SelectedAccentColor
         {
-            get { return this.selectedAccentColor; }
+            get { return this._selectedAccentColor; }
             set
             {
-                if (this.selectedAccentColor != value)
+                if (this._selectedAccentColor != value)
                 {
-                    this.selectedAccentColor = value;
+                    this._selectedAccentColor = value;
                     OnPropertyChanged("SelectedAccentColor");
 
                     AppearanceManager.Current.AccentColor = value;

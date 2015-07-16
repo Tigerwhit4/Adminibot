@@ -8,14 +8,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System;
+using System.CodeDom.Compiler;
+using System.Configuration;
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+using System.Windows.Media;
+
 namespace th.AdminibotModern.Properties {
     
     
-    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0")]
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+    [CompilerGenerated()]
+    [GeneratedCode("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "12.0.0.0")]
+    internal sealed partial class Settings : ApplicationSettingsBase {
         
-        private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
+        private static Settings defaultInstance = ((Settings)(Synchronized(new Settings())));
         
         public static Settings Default {
             get {
@@ -23,33 +30,33 @@ namespace th.AdminibotModern.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("#FFA200FF")]
-        public global::System.Windows.Media.Color SelectedAccentColor {
+        [UserScopedSetting()]
+        [DebuggerNonUserCode()]
+        [DefaultSettingValue("#FFA200FF")]
+        public Color SelectedAccentColor {
             get {
-                return ((global::System.Windows.Media.Color)(this["SelectedAccentColor"]));
+                return ((Color)(this["SelectedAccentColor"]));
             }
             set {
                 this["SelectedAccentColor"] = value;
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml")]
-        public global::System.Uri SelectedThemeSource {
+        [UserScopedSetting()]
+        [DebuggerNonUserCode()]
+        [DefaultSettingValue("/FirstFloor.ModernUI;component/Assets/ModernUI.Dark.xaml")]
+        public Uri SelectedThemeSource {
             get {
-                return ((global::System.Uri)(this["SelectedThemeSource"]));
+                return ((Uri)(this["SelectedThemeSource"]));
             }
             set {
                 this["SelectedThemeSource"] = value;
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Dark")]
+        [UserScopedSetting()]
+        [DebuggerNonUserCode()]
+        [DefaultSettingValue("Dark")]
         public string SelectedThemeDisplayName {
             get {
                 return ((string)(this["SelectedThemeDisplayName"]));
@@ -59,9 +66,9 @@ namespace th.AdminibotModern.Properties {
             }
         }
         
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Large")]
+        [UserScopedSetting()]
+        [DebuggerNonUserCode()]
+        [DefaultSettingValue("Large")]
         public string SelectedFontSize {
             get {
                 return ((string)(this["SelectedFontSize"]));
