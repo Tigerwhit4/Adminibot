@@ -39,7 +39,7 @@ namespace th.AdminibotModern.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("th.AdminibotModern.Properties.Resources", typeof(Resources).Assembly);
+                    var temp = new global::System.Resources.ResourceManager("th.AdminibotModern.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -65,7 +65,7 @@ namespace th.AdminibotModern.Properties {
         /// </summary>
         public static System.Drawing.Bitmap avatar_hugo64 {
             get {
-                object obj = ResourceManager.GetObject("avatar_hugo64", resourceCulture);
+                var obj = ResourceManager.GetObject("avatar_hugo64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -75,7 +75,7 @@ namespace th.AdminibotModern.Properties {
         /// </summary>
         public static System.Drawing.Bitmap avatar_timo64 {
             get {
-                object obj = ResourceManager.GetObject("avatar_timo64", resourceCulture);
+                var obj = ResourceManager.GetObject("avatar_timo64", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
